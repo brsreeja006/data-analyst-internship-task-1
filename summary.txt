@@ -1,0 +1,28 @@
+DATA ANALYST INTERNSHIP - TASK 1
+Data Cleaning and Preprocessing
+
+Dataset: Sales Data (prepared for the internship task)
+Tool: Python / Pandas
+
+Initial records: 32
+Duplicate rows found: 2
+Duplicate rows removed: 2
+Missing cells found initially: 3
+Final records: 30
+Missing cells after cleaning: 0
+
+Changes made:
+1. Renamed column headers to lowercase with underscores.
+2. Removed duplicate records.
+3. Filled missing customer names with "Unknown".
+4. Standardized gender values (male/female).
+5. Trimmed whitespace and standardized city names.
+6. Converted quantity and sales amount to numeric data types.
+7. Filled missing numeric values with the median.
+8. Converted all order dates to dd-mm-yyyy format.
+9. Checked the final dataset for remaining missing values and duplicates.
+
+Final quality checks:
+- Remaining duplicate rows: 0
+- Remaining missing cells: 0
+- Data types checked and corrected.
